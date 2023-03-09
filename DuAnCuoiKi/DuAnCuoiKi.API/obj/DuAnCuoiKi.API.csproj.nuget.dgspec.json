@@ -1,0 +1,273 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\duan\\DuAn_CuoiKi\\DuAnCuoiKi\\DuAnCuoiKi.API\\DuAnCuoiKi.API.csproj": {}
+  },
+  "projects": {
+    "D:\\duan\\DuAn_CuoiKi\\DuAnCuoiKi\\DuAnCuoiKi.API\\DuAnCuoiKi.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\duan\\DuAn_CuoiKi\\DuAnCuoiKi\\DuAnCuoiKi.API\\DuAnCuoiKi.API.csproj",
+        "projectName": "DuAnCuoiKi.API",
+        "projectPath": "D:\\duan\\DuAn_CuoiKi\\DuAnCuoiKi\\DuAnCuoiKi.API\\DuAnCuoiKi.API.csproj",
+        "packagesPath": "C:\\Users\\Huy\\.nuget\\packages\\",
+        "outputPath": "D:\\duan\\DuAn_CuoiKi\\DuAnCuoiKi\\DuAnCuoiKi.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Huy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\duan\\DuAn_CuoiKi\\DuAnCuoiKi\\DuAnCuoiKi.BL\\DuAnCuoiKi.BL.csproj": {
+                "projectPath": "D:\\duan\\DuAn_CuoiKi\\DuAnCuoiKi\\DuAnCuoiKi.BL\\DuAnCuoiKi.BL.csproj"
+              },
+              "D:\\duan\\DuAn_CuoiKi\\DuAnCuoiKi\\DuAnCuoiKi.Common\\DuAnCuoiKi.Common.csproj": {
+                "projectPath": "D:\\duan\\DuAn_CuoiKi\\DuAnCuoiKi\\DuAnCuoiKi.Common\\DuAnCuoiKi.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\duan\\DuAn_CuoiKi\\DuAnCuoiKi\\DuAnCuoiKi.BL\\DuAnCuoiKi.BL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\duan\\DuAn_CuoiKi\\DuAnCuoiKi\\DuAnCuoiKi.BL\\DuAnCuoiKi.BL.csproj",
+        "projectName": "DuAnCuoiKi.BL",
+        "projectPath": "D:\\duan\\DuAn_CuoiKi\\DuAnCuoiKi\\DuAnCuoiKi.BL\\DuAnCuoiKi.BL.csproj",
+        "packagesPath": "C:\\Users\\Huy\\.nuget\\packages\\",
+        "outputPath": "D:\\duan\\DuAn_CuoiKi\\DuAnCuoiKi\\DuAnCuoiKi.BL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Huy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\duan\\DuAn_CuoiKi\\DuAnCuoiKi\\DuAnCuoiKi.Common\\DuAnCuoiKi.Common.csproj": {
+                "projectPath": "D:\\duan\\DuAn_CuoiKi\\DuAnCuoiKi\\DuAnCuoiKi.Common\\DuAnCuoiKi.Common.csproj"
+              },
+              "D:\\duan\\DuAn_CuoiKi\\DuAnCuoiKi\\DuAnCuoiKi.DL\\DuAnCuoiKi.DL.csproj": {
+                "projectPath": "D:\\duan\\DuAn_CuoiKi\\DuAnCuoiKi\\DuAnCuoiKi.DL\\DuAnCuoiKi.DL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\duan\\DuAn_CuoiKi\\DuAnCuoiKi\\DuAnCuoiKi.Common\\DuAnCuoiKi.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\duan\\DuAn_CuoiKi\\DuAnCuoiKi\\DuAnCuoiKi.Common\\DuAnCuoiKi.Common.csproj",
+        "projectName": "DuAnCuoiKi.Common",
+        "projectPath": "D:\\duan\\DuAn_CuoiKi\\DuAnCuoiKi\\DuAnCuoiKi.Common\\DuAnCuoiKi.Common.csproj",
+        "packagesPath": "C:\\Users\\Huy\\.nuget\\packages\\",
+        "outputPath": "D:\\duan\\DuAn_CuoiKi\\DuAnCuoiKi\\DuAnCuoiKi.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Huy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\duan\\DuAn_CuoiKi\\DuAnCuoiKi\\DuAnCuoiKi.DL\\DuAnCuoiKi.DL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\duan\\DuAn_CuoiKi\\DuAnCuoiKi\\DuAnCuoiKi.DL\\DuAnCuoiKi.DL.csproj",
+        "projectName": "DuAnCuoiKi.DL",
+        "projectPath": "D:\\duan\\DuAn_CuoiKi\\DuAnCuoiKi\\DuAnCuoiKi.DL\\DuAnCuoiKi.DL.csproj",
+        "packagesPath": "C:\\Users\\Huy\\.nuget\\packages\\",
+        "outputPath": "D:\\duan\\DuAn_CuoiKi\\DuAnCuoiKi\\DuAnCuoiKi.DL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Huy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\duan\\DuAn_CuoiKi\\DuAnCuoiKi\\DuAnCuoiKi.Common\\DuAnCuoiKi.Common.csproj": {
+                "projectPath": "D:\\duan\\DuAn_CuoiKi\\DuAnCuoiKi\\DuAnCuoiKi.Common\\DuAnCuoiKi.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "7NSDZtl2nkCn3UBfYvww73T7kI7ZHZgV8+uJ9us6gAEr9ELc0y5fKYs0GEP0Pjhq6Pw7GBMqGJ15D3OaB9LH2A==",
+  "success": true,
+  "projectFilePath": "D:\\duan\\DuAn_CuoiKi\\DuAnCuoiKi\\DuAnCuoiKi.BL\\DuAnCuoiKi.BL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Huy\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512"
+  ],
+  "logs": []
+}
